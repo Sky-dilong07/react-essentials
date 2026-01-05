@@ -1,5 +1,7 @@
-import { Welcome }  from "./Welcome";
+import { UserDetails } from './UserDetails'
 import './App.css'
+import { Alert } from './Alert'
+import { NewButton } from './NewButton'
 
 
 function App() {
@@ -8,7 +10,9 @@ function App() {
   return (
     <div>
       <h1>React Compnonents </h1>
-      <Welcome />
+      <Alert />
+      <NewButton />
+     <UserDetails name="BruceWayne" Active={true} />
     </div>
   )
 }
